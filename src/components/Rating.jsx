@@ -64,7 +64,7 @@ export default function Rating() {
         <Box sx={{ width: 307 }}>
             <Typography id="FixTextPoppins" gutterBottom>
                 <div className="flex justify-between text-white relative top-3">
-                    <div className="font-bold text-xs">RATE US</div>
+                    <div className="font-bold text-xs">RATING KAMI</div>
                     <div className="font-bold text-xs">{value.toFixed(1)}</div>
                 </div>
             </Typography>

@@ -69,11 +69,7 @@ export default function FullWidthTabs() {
 
 	return (
 		<div className="md:px-[10%]  md:mt-5 mt-8" id="Tabs" data-aos="fade-up" data-aos-duration="800" >
-			<div
-				className="font-medium text-[1.6rem] md:text-[1.8rem] relative md:top-[2.8rem] top-[2.7rem] text-center text-white"
-				id="Glow">
-				&
-			</div>
+			
 			<Box sx={{ width: "100%" }}>
 				<AppBar
 					position="static"
@@ -97,39 +93,9 @@ export default function FullWidthTabs() {
 						}}
 						className="font-medium text-white text-2xl text-center mt-16"
 						id="Glow">
-						<Tab
-							label="Structure"
-							{...a11yProps(0)}
-							sx={{
-								fontWeight: "medium",
-								color: "white",
-								fontSize: ["1.5rem"],
-								textTransform: "capitalize",
-								fontFamily: '"Poppins", sans-serif',
-								padding: "0.5rem",
-								marginRight: "0.7rem",
-							}}
 						
-							className="font-medium text-white text-2xl text-center mt-16 "
-							id="Glow"
-						/>
 
-						<Tab
-							label="Schedule"
-							{...a11yProps(1)}
-							sx={{
-								fontWeight: "medium",
-								color: "white",
-								fontSize: ["1.5rem"],
-								textTransform: "capitalize",
-								fontFamily: '"Poppins", sans-serif',
-								padding: "0.5rem",
-								marginLeft: "0.7rem",
-							}}
-							// className untuk menentukan gaya tab.
-							className="font-medium text-white text-2xl text-center mt-16 "
-							id="Glow"
-						/>
+						
 					</Tabs>
 				</AppBar>
 				<SwipeableViews

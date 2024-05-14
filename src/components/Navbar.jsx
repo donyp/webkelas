@@ -15,8 +15,8 @@ const Navbar = () => {
 					<img src="/NavIcon.png" alt="" className="w-6 h-6" onClick={toggleMenu} />
 				</div>
 				<div className={`text-center text-white ${isMenuOpen ? "hidden" : ""}`}>
-					<div className="text-[0.7rem]">Hi, visitor!</div>
-					<div className="font-bold text-[1rem]">WELCOME</div>
+					<div className="text-[0.7rem]">Selamat Datang</div>
+					<div className="font-bold text-[1rem]">MUJIB GOLD</div>
 				</div>
 
 				<div
@@ -37,44 +37,34 @@ const Navbar = () => {
 					<ul className="mt-8">
 						<li className="mb-4">
 							<a href="#" className="text-white opacity-80 text-lg font-bold">
-								Home
+								Halaman
 							</a>
 						</li>
 						<li className="mb-4">
 							<a href="#Gallery" className="text-white opacity-80 text-lg font-bold">
-								Gallery
+								Galeri
 							</a>
 						</li>
-						<li>
-							<a href="#Tabs" className="text-white opacity-80 text-lg font-bold">
-								Structure & Schedule
-							</a>
-						</li>
+						
 					</ul>
 				</div>
 			</div>
 
 			{/* Dekstop */}
 			<div className="flex justify-between relative top-3 hidden lg:flex">
-				<div>
-					<img src="/LogoPHI.png" className="w-12 h-12 rounded-full" alt="" />
-				</div>
+				
 				<ul className="mt-2 flex gap-5">
 					<li className="mb-4">
 						<a href="#" className="text-white opacity-80 text-[1rem] font-semibold">
-							Home
+							Halaman
 						</a>
 					</li>
 					<li className="mb-4">
 						<a href="#Gallery" className="text-white opacity-80 text-[1rem] font-semibold">
-							Gallery
+							Galeri
 						</a>
 					</li>
-					<li>
-						<a href="#Tabs" className="text-white opacity-80 text-[1rem] font-semibold">
-							Structure & Schedule
-						</a>
-					</li>
+					
 				</ul>
 			</div>
 		</>

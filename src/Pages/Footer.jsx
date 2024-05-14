@@ -16,32 +16,17 @@ const Footer = () => {
 						</a>
 					</div>
 					<div class="grid grid-cols-2 sm:grid-cols-3">
-						<div className=" ">
-							<h2 class="mb-4 text-sm font-semibold uppercase text-white">CREATED BY</h2>
-							<ul class="text-gray-400 dark:text-gray-400 font-medium">
-								<li class="mb-2">
-									<a href="https://www.instagram.com/ekizr_/?hl=id" class="hover:underline">
-										EKIZR
-									</a>
-								</li>
-								<li>
-									<a href="https://www.instagram.com/dafyall/?hl=id" class="hover:underline">
-										DAFYALL
-									</a>
-								</li>
-							</ul>
-						</div>
 						<div className="">
-							<h2 class="mb-4 text-sm font-semibold uppercase text-white">Follow us</h2>
+							<h2 class="mb-4 text-sm font-semibold uppercase text-white">Kontak Kami</h2>
 							<ul class="text-gray-400 dark:text-gray-400 font-medium">
 								<li class="mb-2">
-									<a href="https://www.instagram.com/acetkjthree/?hl=id" class="hover:underline ">
-										Instagram
+									<a href="https://wa.me/+6281311958488" class="hover:underline ">
+										Kontak 1
 									</a>
 								</li>
-								<li>
-									<a href="https://www.youtube.com/@11TKJ3" class="hover:underline">
-										Youtube
+								<li class="mb-2">
+								<a href="https://wa.me/+6281316808850" class="hover:underline ">
+										Kontak 2
 									</a>
 								</li>
 							</ul>
@@ -60,7 +45,7 @@ const Footer = () => {
 				<div class="sm:flex sm:items-center sm:justify-between">
 					<div class="flex mt-4 justify-center sm:mt-0">
 						<p className="text-[0.7rem] text-white opacity-70">
-							© {new Date().getFullYear()} Kelas XI TKJ 3 | Di Kelola Oleh Siswa TKJ 3
+							© {new Date().getFullYear()} Website Resmi Mujib Gold
 						</p>
 					</div>
 				</div>
