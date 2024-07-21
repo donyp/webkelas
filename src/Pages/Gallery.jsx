@@ -90,7 +90,7 @@ const Carousel = () => {
 	return (
 		<>
 			<div className="text-white opacity-60 text-base font-semibold mb-4 mx-[10%] mt-10 lg:text-center lg:text-3xl lg:mb-8" id="Gallery">
-				Apa Yang Kami Jual
+					Our Memories
 			</div>
 			<div id="Carousel">
 				<Slider {...settings}>

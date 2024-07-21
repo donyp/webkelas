@@ -15,8 +15,8 @@ const Navbar = () => {
 					<img src="/NavIcon.png" alt="" className="w-6 h-6" onClick={toggleMenu} />
 				</div>
 				<div className={`text-center text-white ${isMenuOpen ? "hidden" : ""}`}>
-					<div className="text-[0.7rem]">Selamat Datang</div>
-					<div className="font-bold text-[1rem]">MUJIB GOLD</div>
+					<div className="text-[0.7rem]">Selamat Datang Di Website</div>
+					<div className="font-bold text-[1rem]">XII IPS 1</div>
 				</div>
 
 				<div

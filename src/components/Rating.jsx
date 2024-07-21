@@ -60,48 +60,4 @@ export default function Rating() {
 
     const imgIndex = Math.min(Math.floor(value / 2), units.length - 1) // Mengambil indeks terakhir jika melebihi panjang array
 
-    return (
-        <Box sx={{ width: 307 }}>
-            <Typography id="FixTextPoppins" gutterBottom>
-                <div className="flex justify-between text-white relative top-3">
-                    <div className="font-bold text-xs">RATING KAMI</div>
-                    <div className="font-bold text-xs">{value.toFixed(1)}</div>
-                </div>
-            </Typography>
-            <div className="flex justify-center mb-3">
-                <img
-                    src={units[imgIndex]}
-                    alt={`Rating ${imgIndex + 1}`}
-                    className="w-10 h-10"
-                    id="ImgRating"
-                />
-            </div>
-            <Slider
-                value={value}
-                min={0}
-                step={0.1}
-                max={10}
-                color="secondary"
-                valueLabelDisplay="off"
-                onChange={handleChange}
-                onChangeCommitted={handleSliderChange}
-                disabled={remainingRatings === 0 || isSubmitting}
-                sx={{
-                    "& .MuiSlider-thumb": {
-                        height: "1.5rem",
-                        width: "1.5rem",
-                        border: "none",
-                        backgroundColor: "white",
-                        boxShadow: "0 0 10px rgba(255, 255, 255, 0.8)",
-                        "&:hover, &.Mui-focusVisible": {
-                            boxShadow: "0 0 15px rgba(255, 255, 255, 1)",
-                        },
-                    },
-                    "& .MuiSlider-valueLabel": {
-                        backgroundColor: "transparent",
-                    },
-                }}
-            />
-        </Box>
-    )
 }

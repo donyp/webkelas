@@ -67,12 +67,6 @@ export default function ButtonSend() {
 
 	return (
 		<div>
-			<Button onClick={handleOpen}>
-				<button className="flex items-center space-x-2 text-white px-6 py-4" id="SendImg">
-					<span className="text-base lg:text-1xl">Pesan Disini</span>
-
-				</button>
-			</Button>
 
 			<Modal
 				aria-labelledby="spring-modal-title"
