@@ -13,18 +13,18 @@ const Home = () => {
 					className="border-2 flex justify-between px-10 text-4xl font-bold py-2 relative"
 					id="TotalSiswa">
 					<div id="AngkaGradientBlue" className="flex items-center justify-center ">
-						25
+						37
 					</div>
 					<div className="">
 						<span id="AngkaGradientBlue" className="text-5xl">
-							3
+							8
 						</span>
 						<span id="AngkaGradientPink" className="text-5xl">
-							7
+							1
 						</span>
 					</div>
 					<div id="AngkaGradientPink" className="flex items-center justify-center">
-						12
+						25
 					</div>
 				</div>
 

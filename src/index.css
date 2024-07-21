@@ -76,8 +76,8 @@ body {
 	height: 100%;
 	background: radial-gradient(
 			circle,
-			rgba(224, 107, 213, 0.8520658263305322) 0%,
-			rgba(75, 57, 198, 0.9052871148459384) 100%
+			rgba(179, 148, 176, 0.852) 0%,
+			rgba(111, 100, 182, 0.905) 100%
 		),
 		url("/Background.jpeg");
 	background-repeat: no-repeat;
