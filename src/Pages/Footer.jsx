@@ -8,7 +8,7 @@ const Footer = () => {
 					<div class="mb-6 md:mb-0">
 						<a href="#" class="flex items-center">
 							<img
-								src="/LogoTKJ3.png"
+								src="/LogoIps.png"
 								alt=""
 								className="h-[4.5rem] w-[4.5rem] right-2 relative rounded-full brightness-200"
 							/>
@@ -16,21 +16,7 @@ const Footer = () => {
 						</a>
 					</div>
 					<div class="grid grid-cols-2 sm:grid-cols-3">
-						<div className="">
-							<h2 class="mb-4 text-sm font-semibold uppercase text-white">Tentang Kami</h2>
-							<ul class="text-gray-400 dark:text-gray-400 font-medium">
-								<li class="mb-2">
-									<a href="www.instagram.com/elevenat1on" class="hover:underline ">
-										Instagram
-									</a>
-								</li>
-								<li class="mb-2">
-								<a href="https://www.tiktok.com/@elevenat1on" class="hover:underline ">
-										Tiktok
-									</a>
-								</li>
-							</ul>
-						</div>
+						
 						<div className="hidden md:block">
 							<Rating />
 						</div>
